@@ -17,6 +17,9 @@ import { RouterLink } from 'vue-router'
       <li>
         <RouterLink to="/products" active-class="selected">Products</RouterLink>
       </li>
+      <li>
+        <RouterLink to="/search" active-class="selected">Search</RouterLink>
+      </li>
     </ul>
   </nav>
 </template>

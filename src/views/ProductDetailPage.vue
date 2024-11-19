@@ -15,6 +15,9 @@ const product = products.find((p) => p.id === route.params.id)
     <p>{{ product.description }}</p>
     <p>id: {{ product.id }}</p>
   </div>
+  <div v-else>
+    <p>Product not found</p>
+  </div>
   <router-link to="/products">Back to products</router-link>
 </template>
 
