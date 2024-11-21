@@ -13,6 +13,7 @@ const query = route.query.q
       <p>No query provided</p>
       <button @click="$router.push({ name: 'search' })">Go to search page</button>
     </div>
+    <button @click="$router.back()">Go back</button>
   </div>
 </template>
 

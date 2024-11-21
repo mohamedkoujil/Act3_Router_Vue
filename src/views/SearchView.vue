@@ -8,7 +8,7 @@ const search = ref('')
 const handleSubmit = (e) => {
   e.preventDefault()
   if (!search.value) return
-  router.push({ name: 'searchResults', query: { q: search.value } })
+  router.push({ name: 'searchResult', query: { q: search.value } })
   search.value = ''
 }
 </script>
